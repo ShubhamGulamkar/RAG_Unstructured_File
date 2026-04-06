@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+streamlit
+chromadb
+openai
+python-dotenv
+lxml
+rank_bm25
+ragas
+trulens-eval
+python-multipart

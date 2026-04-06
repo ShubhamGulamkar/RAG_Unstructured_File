@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3">
+<title>Pediatric Longitudinal Record</title>
+
+<recordTarget>
+  <patientRole>
+    <id extension="P3003"/>
+    <patient>
+      <name><given>Aarav</given><family>Patel</family></name>
+      <administrativeGenderCode code="M"/>
+      <birthTime value="20180520"/>
+    </patient>
+  </patientRole>
+</recordTarget>
+
+<component><structuredBody>
+
+<component>
+<section>
+<title>Immunizations</title>
+<text>
+MMR, Polio, Hepatitis B, DTaP repeated across visits.
+</text>
+</section>
+</component>
+
+<component>
+<section>
+<title>Growth</title>
+<text>
+Height and weight tracking over years. Normal percentile.
+</text>
+</section>
+</component>
+
+<component>
+<section>
+<title>Visits</title>
+<text>
+Multiple pediatric visits with fever, cough, viral infections.
+Treatment includes antibiotics and rest.
+</text>
+</section>
+</component>
+
+<component>
+<section>
+<title>Assessment</title>
+<text>
+Healthy child with normal development.
+</text>
+</section>
+</component>
+
+<!-- Repeat blocks to simulate large document -->
+
+</structuredBody></component>
+</ClinicalDocument>

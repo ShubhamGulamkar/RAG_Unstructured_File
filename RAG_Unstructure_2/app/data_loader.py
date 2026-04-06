@@ -7,6 +7,7 @@ def load_ccda(file_path: str):
     return etree.tostring(root, encoding='unicode')
 
 
+
 def chunk_text(text, chunk_size=500, overlap=50):
     chunks = []
     start = 0

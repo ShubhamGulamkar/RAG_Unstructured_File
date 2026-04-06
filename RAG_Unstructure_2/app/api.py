@@ -1,7 +1,7 @@
 from fastapi import FastAPI, UploadFile, File
 import shutil
 from app.rag_pipeline import ingest_document, query_rag
-
+import uuid
 app = FastAPI()
 
 @app.post("/upload")
@@ -12,7 +12,6 @@ async def upload(file: UploadFile = File(...)):
 
     ingest_document(path)
     return {"message": "Document ingested"}
-
 
 @app.get("/query")
 def query(q: str):
