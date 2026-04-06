@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+streamlit
+python-dotenv
+openai
+chromadb
+pydantic
+lxml
+python-multipart

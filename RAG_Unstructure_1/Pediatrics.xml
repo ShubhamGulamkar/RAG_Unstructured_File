@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3">
+  <title>Pediatric Visit</title>
+
+  <recordTarget>
+    <patientRole>
+      <id extension="P3003"/>
+      <patient>
+        <name>
+          <given>Aarav</given>
+          <family>Patel</family>
+        </name>
+        <administrativeGenderCode code="M"/>
+        <birthTime value="20180520"/>
+      </patient>
+    </patientRole>
+  </recordTarget>
+
+  <component>
+    <structuredBody>
+
+      <component>
+        <section>
+          <title>Immunizations</title>
+          <text>
+            <list>
+              <item>MMR Vaccine</item>
+              <item>Polio Vaccine</item>
+            </list>
+          </text>
+        </section>
+      </component>
+
+      <component>
+        <section>
+          <title>Assessment</title>
+          <text>Normal growth and development</text>
+        </section>
+      </component>
+
+    </structuredBody>
+  </component>
+</ClinicalDocument>
