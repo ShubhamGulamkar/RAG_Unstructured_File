@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3">
+  <title>Diabetes Follow-up</title>
+
+  <recordTarget>
+    <patientRole>
+      <id extension="P2002"/>
+      <patient>
+        <name>
+          <given>Sneha</given>
+          <family>Iyer</family>
+        </name>
+        <administrativeGenderCode code="F"/>
+        <birthTime value="19900211"/>
+      </patient>
+    </patientRole>
+  </recordTarget>
+
+  <component>
+    <structuredBody>
+
+      <component>
+        <section>
+          <title>Lab Results</title>
+          <text>
+            <list>
+              <item>HbA1c: 8.1%</item>
+              <item>Fasting Glucose: 165 mg/dL</item>
+            </list>
+          </text>
+        </section>
+      </component>
+
+      <component>
+        <section>
+          <title>Medications</title>
+          <text>
+            <list>
+              <item>Metformin 500mg</item>
+              <item>Insulin 10 units</item>
+            </list>
+          </text>
+        </section>
+      </component>
+
+    </structuredBody>
+  </component>
+</ClinicalDocument>
